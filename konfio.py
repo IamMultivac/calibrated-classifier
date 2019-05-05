@@ -485,6 +485,7 @@ plt.title('Mutual Information \n (Feature Importance)')
 
 columnas_=X_pipe.columns[MI>=.01]
 X_mutual_info=X_pipe[columnas_]
+X_mutual_info.plot.barh(edgecolor='black',color='orange')
 
 """# Modeling
 ## We have a classification task that will be resolved by combining tree based models along with neural nets and linear and bayesian models
