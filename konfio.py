@@ -44,6 +44,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.neural_network import MLPClassifier,MLPRegressor
 from sklearn.feature_selection import mutual_info_classif
 from sklearn.ensemble import BaggingClassifier
+from sklearn.model_selection import validation_curve,learning_curve
 
 """# Functions for analysis and data manipulation"""
 
