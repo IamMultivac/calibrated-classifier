@@ -1,2 +1,2 @@
-# Challenge-2.0
+# Calibrated classifier
 Challenge to play arround with git commands
